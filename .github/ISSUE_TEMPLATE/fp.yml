@@ -55,17 +55,17 @@ body:
   - type: dropdown
 
     id: version
-    label: What bot triggered this?
-    description: It must be the proper legitimate AV-Bot, elss we will not handle the FP.
+  
     attributes:
-
-
+      label: What bot unundid your changes?
+      description: It must be the proper legit AV-Bot!
+      options:
  
 
 
         - The Anti-Vandalism Bot
 
-        - Another bot (will not handle)
+        - Another bot, or an illegit version of the AV-Bot (will not handle)
 
     validations:
 
