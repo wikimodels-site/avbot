@@ -9,13 +9,18 @@ body:
 - type: markdown
   attributes:
     value: |
-      Enter the fields below.
-- type: input
+      Enter the fields below!
+- type: markdown
   id: revs
   attributes:
     label: Links to revisions
-    description: "Link to the revisions that the Anti-Vandalism Bot done."
+    description: "Link to the revisions that the Anti-Vandalism Bot done. For security reasons, only link to Wikimodels itself without shortened links."
     placeholder: "Don't use wikitext; use markdown."
   validations:
     required: true
-  
+- type: checkboxes
+  label: "Community guidelines"
+  options:
+    - label: I read and have accepted the [Wikimodels CGs](https://wikimodels.miraheze.org/wiki/Wikimodels:CGs).
+      required: true
+
