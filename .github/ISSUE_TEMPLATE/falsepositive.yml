@@ -1,16 +1,12 @@
 
-title: "False positive revert"
+name: "False positive revert"
 description: "Report any false positives."
 
 
 body:
 - type: markdown
   value: "## Welcome!"
-- type: markdown
-  attributes:
-    value: |
-      Enter the fields below!
-- type: markdown
+- type: textarea
   id: revs
   attributes:
     label: Links to revisions
