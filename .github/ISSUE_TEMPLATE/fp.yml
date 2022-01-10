@@ -24,15 +24,15 @@ body:
 
     attributes:
 
-      label: Contact Details
+      label: Username
 
-      description: How can we get in touch with you if we need more info?
+      description: Please provide your Wikimodels username.
 
-      placeholder: ex. email@example.com
+      placeholder: ex. John
 
     validations:
 
-      required: false
+      required: true
 
   - type: textarea
 
