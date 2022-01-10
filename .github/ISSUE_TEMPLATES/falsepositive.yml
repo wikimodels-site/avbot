@@ -1,4 +1,21 @@
----
+
 title: "False positive revert"
-about: "Report any false positives."
----
+description: "Report any false positives."
+
+
+body:
+- type: markdown
+  value: "## Welcome!"
+- type: markdown
+  attributes:
+    value: |
+      Enter the fields below.
+- type: input
+  id: revs
+  attributes:
+    label: Links to revisions
+    description: "Link to the revisions that the Anti-Vandalism Bot done."
+    placeholder: "Don't use wikitext; use markdown."
+  validations:
+    required: true
+  
