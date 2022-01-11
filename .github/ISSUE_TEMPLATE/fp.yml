@@ -43,7 +43,7 @@ body:
       label: Are you vandalising Wikimodels?
 
 
-      description: If so, risk getting blocked from editing.
+      description: If so, risk getting blocked from editing. Do not select "you are not" unless you're really sure (we can tell!).
       
       options:
       
