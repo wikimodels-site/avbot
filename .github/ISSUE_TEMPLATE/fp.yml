@@ -34,19 +34,21 @@ body:
 
       required: true
 
-  - type: textarea
+  - type: dropdown
 
-    id: what-happened
+    id: tp
 
     attributes:
 
-      label: What happened?
+      label: Are you vandalising Wikimodels?
 
-      description: Also tell us, what did you expect to happen?
 
-      placeholder: Tell us what you see!
-
-      value: "A bug happened!"
+      description: If so, risk getting blocked from editing.
+      
+      options:
+      
+        - No
+        - Yes (if so, we are angry. We are wiki demons. 😈)
 
     validations:
 
