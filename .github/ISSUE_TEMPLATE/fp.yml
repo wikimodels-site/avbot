@@ -47,8 +47,8 @@ body:
       
       options:
       
-        - No
-        - Yes (if so, we are angry. We are wiki demons. 😈)
+        - Nah, I'm not.
+        - I am, hee hee hee! (If you select this, we are angry and you may get blocked. We are wiki demons. 😈)
 
     validations:
 
